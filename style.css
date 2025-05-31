@@ -1,0 +1,198 @@
+.tag {
+  color: #2f4f4f;
+}
+
+.imp {
+  color: #008b8b;
+}
+
+.no-bullet {
+  list-style: square;
+  padding-left: 0;
+}
+
+.indent {
+  padding-left: 40px;
+}
+
+.heading {
+  font-size: 1.4rem;
+  &::before {
+    content: "○";
+  }
+  &::after {
+    content: "○";
+  }
+}
+
+.hero {
+  width: 100%;
+  height: 150px;
+}
+
+img {
+  background: url(img/StoreHeader2025.png) no-repeat;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.hero2 {
+  width: 100%;
+  height: 150px;
+}
+
+img {
+  background: url(img/StoreFooter2025.png) no-repeat;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.hero3 {
+  width: 100%;
+  height: 500px;
+  opacity: 0.7;
+}
+
+img {
+  background: url(img/SmartPhone2025.png) no-repeat;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 20px;
+}
+/*=========================================
+
+::beforeと::afterを使いHTMLタグを表示している部分
+(コメントアウトを外すと使用されたHTMLタグ表示可能)
+
+=========================================*/
+
+/*
+::before,
+::after {
+  color: #2f4f4f;
+}
+ul,
+ol,
+menu,
+li,
+dl,
+dt,
+dd {
+  &::before {
+    color: #008b8b;
+  }
+  &::after {
+    color: #008b8b;
+  }
+}
+
+ul,
+ol,
+menu {
+  &::before {
+    margin-left: -20px;
+  }
+  &::after {
+    margin-left: -20px;
+  }
+}
+*/
+/*==========================
+
+ul
+
+==========================*/
+/*
+ul::before {
+  content: "\003cul\003e";
+}
+ul::after {
+  content: "\003c/ul\003e";
+}
+*/
+/*==========================
+
+ol 
+
+==========================*/
+/*
+ol::before {
+  content: "\003col\003e";
+}
+ol::after {
+  content: "\003c/ol\003e";
+}
+ol[start]::before {
+  content: '\003col start="3"\003e';
+}
+*/
+/*==========================
+
+menu
+
+==========================*/
+/*
+menu::before {
+  content: "\003cmenu\003e";
+}
+menu::after {
+  content: "\003c/menu\003e";
+}
+*/
+/*==========================
+
+li
+
+==========================*/
+/*
+li::before {
+  content: "\003c li\003e";
+}
+li::after {
+  content: "\003c/li\003e";
+}
+*/
+/*==========================
+
+dl
+
+==========================*/
+/*
+dl::before {
+  content: "\003c dl\003e";
+}
+dl::after {
+  content: "\003c/dl\003e";
+}
+*/
+/*==========================
+
+dt
+
+==========================*/
+/*
+dt::before {
+  content: "\003c dt\003e";
+}
+dt::after {
+  content: "\003c/dt\003e";
+}
+*/
+/*==========================
+
+dd
+
+==========================*/
+/*
+dd::before {
+  content: "\003c dd\003e";
+}
+dd::after {
+  content: "\003c/dd\003e";
+}
+*/
