@@ -25,6 +25,13 @@
   }
 }
 
+menu {
+  a:hover,
+  a:current {
+    color: #fa452c;
+  }
+}
+
 .hero {
   width: 100%;
   height: 150px;
